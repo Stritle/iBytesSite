@@ -27,18 +27,17 @@ const Navbar = () => {
                     <ul>
                         <li><Link to="#about">Sobre</Link></li>
                         <li><Link to="#serviços">Serviços</Link></li>
-                        <li><Link to="#trabalhos">Outros Trabalhos</Link></li>
+                        <li><Link to="#trabalhos">Portefólio</Link></li>
                         <li><Link to="#contactos">Contactos</Link></li>
 
                     </ul>
                 </div>
 
                 <div className="navSocial">
-                    <FaFacebookF />
-                    <FaInstagram />
-                    <FaWhatsapp />
-                    <FaLinkedinIn />
-                    <FaRegEnvelope />
+                    <a href="https://www.facebook.com/ignitedbytes"><FaFacebookF /></a>
+                    <a href="https://www.instagram.com/ignitedbytes/?hl=pt"><FaInstagram /></a>
+                    <a href="https://wa.me/351934425911" ><FaWhatsapp /></a>
+                    <a href="mailto:ignitedbytes@gmail.com?subject=Hello%20again"><FaRegEnvelope /></a>
                 </div>
 
             </div>
@@ -48,7 +47,7 @@ const Navbar = () => {
                     <ul>
                         <li><Link to="#aboutMobile" onClick={handleToggle}>Sobre</Link></li>
                         <li><Link to="#serviços" onClick={handleToggle}>Serviços</Link></li>
-                        <li><Link to="#trabalhos" onClick={handleToggle}>Outros Trabalhos</Link></li>
+                        <li><Link to="#trabalhos" onClick={handleToggle}>Portefólio</Link></li>
                         <li><Link to="#contactos" onClick={handleToggle}>Contactos</Link></li>
                     </ul>
                     <div className="logo"><img src={logo}></img></div>

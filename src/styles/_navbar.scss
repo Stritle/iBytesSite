@@ -36,8 +36,11 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        font-size: 17px;
-        color: #d8661b;
+        font-size: 1.2rem;
+        a{
+            color: #d8661b;
+            
+        }
         margin-left: 70px;
     }
 }
@@ -60,6 +63,8 @@
         }
         .navSocial {
             display: none;
+            
+            
         }
     }
     .navBtn {
