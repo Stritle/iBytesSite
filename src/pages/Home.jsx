@@ -14,7 +14,7 @@ const Home = () => {
                 <Navbar />
 
                 <div className="content-background">
-                    <video autoPlay muted loop >
+                    <video autoPlay muted loop playsinline >
                         <source src={videoBackground} type="video/mp4"></source>
                     </video>
                     <div className="container">
