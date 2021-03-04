@@ -14,10 +14,10 @@ export default class Footer extends Component {
                 <div className="socialMediaIcons">
                     <a href="https://www.facebook.com/ignitedbytes"><FaFacebookF /></a>
                     <a href="https://www.instagram.com/ignitedbytes/?hl=pt"><FaInstagram /></a>
-                    <a href="http://m.me/zitacletomakeup" ><FaWhatsapp /></a>
+                    <a href="https://wa.me/351934425911" ><FaWhatsapp /></a>
                     <a href="mailto:ignitedbytes@gmail.com?subject=Hello%20again"><FaRegEnvelope /></a>
                 </div>
-
+                {/* http://m.me/zitacletomakeup"  messenger */}
                 <div className="footer-text">
 
                     <p>  IgnitedBytes –  Todos os direitos reservados<b> © 2021 </b></p>
