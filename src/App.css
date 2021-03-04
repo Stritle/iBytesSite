@@ -781,6 +781,7 @@ h1 {
   .modalContactos .show-modal .contactForm select {
     background-color: snow;
     -webkit-appearance: none;
+    text-indent: 25px;
   }
   .modalContactos .show-modal .contactForm textarea {
     margin: 1vh 1% 0 1%;
@@ -792,7 +793,7 @@ h1 {
     text-indent: 25px;
   }
   .modalContactos .show-modal .contactForm .btn-submit {
-    width: 90%;
+    width: 100%;
     margin-top: 30px;
     background-color: #c24e19;
     color: snow;
