@@ -796,9 +796,12 @@ h1 {
     font-size: 6vw;
     margin-left: 5vw;
   }
-  .serviços .serviçosDescrição div:nth-child(2) b {
-    font-size: 3.5vw;
+  .serviços .serviçosDescrição div:nth-child(2) h6 {
     margin-left: 5vw;
+  }
+  .serviços .serviçosDescrição div:nth-child(2) h6 b {
+    font-size: 3.5vw;
+    text-align: justify;
   }
   .serviços .serviçosDescrição div:nth-child(2) p {
     margin-left: 5vw;
@@ -1000,7 +1003,7 @@ h1 {
 
 @media (max-width: 850px) {
   .about {
-    height: 100vh;
+    height: 110vh;
     float: left;
     width: 100%;
   }
