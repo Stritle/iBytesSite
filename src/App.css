@@ -10,6 +10,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  height: auto;
+}
+
 h2,
 h3,
 h4,
@@ -442,7 +446,7 @@ h1 {
   .footer {
     float: left;
     width: 100%;
-    height: 8vh;
+    height: auto;
     color: #d8661b;
     background: #1d1d1d;
     background: -webkit-gradient(linear, left top, right top, from(#1d1d1d), to(#090909));
@@ -463,6 +467,7 @@ h1 {
     color: #d8661b;
   }
   .footer .footer-links {
+    display: none;
     margin-top: 30px;
     margin-right: 15px;
     float: right;
@@ -895,17 +900,17 @@ h1 {
   max-width: 100vw;
 }
 
-.serviços .tipoServiços div:nth-child(2n+2) {
+.serviços .tipoServiços div:nth-child(2n + 2) {
   background: #282828;
   background: radial-gradient(circle, #282828 0%, black 100%);
   color: snow;
 }
 
-.serviços .tipoServiços div:nth-child(2n+1) {
+.serviços .tipoServiços div:nth-child(2n + 1) {
   color: #131313;
 }
 
-.serviços .tipoServiços div:nth-child(2n+1) p {
+.serviços .tipoServiços div:nth-child(2n + 1) p {
   color: #131313;
 }
 
@@ -1045,7 +1050,7 @@ h1 {
   .navBtn {
     display: block;
     position: fixed;
-    right: 20px;
+    right: 15px;
     top: 30px;
     z-index: 8;
     font-size: 1.5rem;

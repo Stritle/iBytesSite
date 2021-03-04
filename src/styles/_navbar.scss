@@ -37,9 +37,8 @@
         justify-content: space-between;
         align-items: center;
         font-size: 1.2rem;
-        a{
+        a {
             color: #d8661b;
-            
         }
         margin-left: 70px;
     }
@@ -63,26 +62,24 @@
         }
         .navSocial {
             display: none;
-            
-            
         }
     }
     .navBtn {
         display: block;
         position: fixed;
-        right: 20px;
+        right: 15px;
         top: 30px;
         z-index: 8;
         font-size: 1.5rem;
         transition: 0.7s;
-        color:#d8661b;
+        color: #d8661b;
         &:hover {
             color: rgb(235, 142, 20);
         }
     }
     .navLinksMobile {
         -o-object-fit: cover;
-            object-fit: cover;
+        object-fit: cover;
         position: fixed;
         text-align: center;
         color: snow;
@@ -92,35 +89,32 @@
         right: 0;
         background-color: rgb(5, 1, 15);
         z-index: 5;
-        ul{
+        ul {
             margin-top: 10vh;
-            li{
+            li {
                 margin-top: 4vh;
-                a{
+                a {
                     text-decoration: none;
                 }
-               
             }
         }
-        div{ 
-            img{
-            margin-top: 35vh;
-            width: 50%;
+        div {
+            img {
+                margin-top: 35vh;
+                width: 50%;
+            }
         }
 
-        }
-       
-        .navSocialMobile{
+        .navSocialMobile {
             margin: 0 auto;
             width: 50%;
             display: flex;
             justify-content: space-between;
-            align-items: center;           
-            a{
+            align-items: center;
+            a {
                 font-size: 17px;
                 color: #d8661b;
             }
-
         }
     }
 }

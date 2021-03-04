@@ -6,7 +6,7 @@
         display: flex;
         flex-wrap: wrap;
         margin-bottom: 10vh;
-        div{
+        div {
             flex: 1 1 10vw;
         }
         div:nth-child(2) {
@@ -16,13 +16,13 @@
                 text-align: left;
                 text-transform: uppercase;
                 margin-left: 2vw;
-                margin-bottom: 2vh;  
+                margin-bottom: 2vh;
                 font-size: 3vw;
                 font-weight: 100;
                 color: rgb(20, 20, 20);
-                text-shadow:2px 2px 10px rgb(32, 32, 32);                   
+                text-shadow: 2px 2px 10px rgb(32, 32, 32);
             }
-            b {                    
+            b {
                 margin-top: 2vh;
                 margin-left: 2vw;
                 font-size: 1vw;
@@ -50,68 +50,63 @@
         margin: 0 auto;
         width: 90%;
         display: flex;
-     flex-wrap: wrap;
-     max-width:100vw; 
-     & div:nth-child(2n+2){
-        background: rgb(40,40,40);
-background: radial-gradient(circle, rgba(40,40,40,1) 0%, rgba(0,0,0,1) 100%);
-         color: snow;         
+        flex-wrap: wrap;
+        max-width: 100vw;
+        & div:nth-child(2n + 2) {
+            background: rgb(40, 40, 40);
+            background: radial-gradient(circle, rgba(40, 40, 40, 1) 0%, rgba(0, 0, 0, 1) 100%);
+            color: snow;
+        }
+        & div:nth-child(2n + 1) {
+            color: rgb(19, 19, 19);
 
-     }        
-     & div:nth-child(2n+1){
-color:rgb(19, 19, 19);
-
-p{
-color: rgb(19, 19, 19);
-} 
-          
-
-    }                
+            p {
+                color: rgb(19, 19, 19);
+            }
+        }
     }
 }
 //-----------------------------------
 //smartphone
 @media (max-width: 850px) {
-.serviços {
-    height: auto;
-    .serviçosDescrição {
+    .serviços {
         height: auto;
-        margin-bottom: 0vh;
-        div{
-            flex: 1 1 90vw;
-        }
-        div:nth-child(2) {
-            color: rgb(85, 85, 85);
-            
-            h1 {
-                font-size:  6vw; 
-                margin-left: 5vw; 
-            }                          
-         b {         margin-left: 5vw;     
+        .serviçosDescrição {
+            height: auto;
+            margin-bottom: 0vh;
+            div {
+                flex: 1 1 90vw;
+            }
+            div:nth-child(2) {
+                color: rgb(85, 85, 85);
+
+                h1 {
+                    font-size: 6vw;
+                    margin-left: 5vw;
+                }
+                b {
+                    margin-left: 5vw;
                     font-size: 3.5vw;
                     text-align: justify;
                     margin-right: 5vw;
-                    
-                }           
-            p {
-                margin-left: 5vw; 
-                margin-right: 10vw;
-                font-size: 3.5vw;
-                text-align: justify;
+                }
+                p {
+                    margin-left: 5vw;
+                    margin-right: 10vw;
+                    font-size: 3.5vw;
+                    text-align: justify;
+                }
+            }
+            div:nth-child(1) {
+                height: 40vh;
+                background-image: url(./imgs/imgGeralServiços.jpg);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: 100%;
             }
         }
-        div:nth-child(1) {
-            height: 40vh;
-            background-image: url(./imgs/imgGeralServiços.jpg);
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: 100%;
+        .tipoServiços {
+            width: 95%;
         }
     }
-    .tipoServiços {
-        width: 95%;
-        
-    
-    }
-}
 }
