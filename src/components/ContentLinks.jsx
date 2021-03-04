@@ -8,13 +8,12 @@ export default class ContentLinks extends Component {
             <div className="content-links">
 
                 <div className="container-content-links">
-                    <Link to="#"><img src={logo} alt="IgnitedBytes" width="100%" ></img></Link><br></br><br></br>
+                    <Link to="#"><img src={logo} alt="IgnitedBytes" width="100%" ></img></Link>
                     {/* <p>Telefone:+351 934 425 911</p>
                     <p>E-mail: info@ignitedbytes.pt</p>
                     <p>Largo Doutor Henrique Botelho Filho,<br></br>
                     3c 2ºEsquerdo<br></br>
                      5000-665 Vila Real - Portugal</p> */}
-
                 </div>
                 <div className="container-content-links-1">
                     <a href="#ancora-marketing">SEO</a><br></br>
