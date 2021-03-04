@@ -190,6 +190,7 @@
                 text-align: center;
                 select {
                     background-color: snow;
+                    -webkit-appearance: none;
                 }
                 textarea {
                     margin: 1vh 1% 0 1%;
@@ -208,6 +209,7 @@
                     color: snow;
                     font-weight: 600;
                     text-transform: uppercase;
+                    -webkit-appearance: none;
                 }
             }
             .btnContactos {

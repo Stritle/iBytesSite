@@ -780,6 +780,7 @@ h1 {
   }
   .modalContactos .show-modal .contactForm select {
     background-color: snow;
+    -webkit-appearance: none;
   }
   .modalContactos .show-modal .contactForm textarea {
     margin: 1vh 1% 0 1%;
@@ -797,6 +798,7 @@ h1 {
     color: snow;
     font-weight: 600;
     text-transform: uppercase;
+    -webkit-appearance: none;
   }
   .modalContactos .show-modal .btnContactos {
     color: snow;
