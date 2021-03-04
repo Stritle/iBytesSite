@@ -85,5 +85,29 @@
         right: 0;
         background-color: rgb(5, 1, 15);
         z-index: 5;
+        ul{
+            margin-top: 10vh;
+            li{
+                margin-top: 4vh;
+                a{
+                    text-decoration: none;
+                }
+               
+            }
+        }
+        img{
+            margin-top: 35vh;
+            width: 50%;
+        }
+        .navSocialMobile{
+            margin: 0 auto;
+            width: 50%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 17px;
+            color: #d8661b;
+
+        }
     }
 }

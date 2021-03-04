@@ -15,8 +15,8 @@ const Serviços = () => {
                     <p>O que fazemos? Criamos uma estratégia de marketing digital à medida de cada um dos nossos clientes.</p>
                     <p>Nós somos criativos e irreverentes, mas sempre com um toque metódico!</p>
                     <p>Conquistamos pela diferença e por irmos para além do óbvio.</p>
-                    <p> Queres encontrar o lugar ao sol da tua empresa no mundo online? Nós somos a agência de marketing digital que vai fazer isso acontecer!</p>
-                    <p> Fala connosco. Nós vamos dar à tua empresa o impulso que precisa para conquistar a tua área de negócio.</p>
+                    <p>Queres encontrar o lugar ao sol da tua empresa no mundo online? Nós somos a agência de marketing digital que vai fazer isso acontecer!</p>
+                    <p>Fala connosco. Nós vamos dar à tua empresa o impulso que precisa para conquistar a tua área de negócio.</p>
                 </div>
             </div>
 

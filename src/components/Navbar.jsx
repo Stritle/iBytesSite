@@ -51,6 +51,14 @@ const Navbar = () => {
                         <li><Link to="#trabalhos" onClick={handleToggle}>Outros Trabalhos</Link></li>
                         <li><Link to="#contactos" onClick={handleToggle}>Contactos</Link></li>
                     </ul>
+                    <img src={logo}></img>
+                    <div className="navSocialMobile">
+                        <FaFacebookF />
+                        <FaInstagram />
+                        <FaWhatsapp />
+                        <FaLinkedinIn />
+                        <FaRegEnvelope />
+                    </div>
                 </div>
                     : <div></div>
 
