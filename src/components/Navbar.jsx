@@ -53,11 +53,11 @@ const Navbar = () => {
                     </ul>
                     <div className="logo"><img src={logo}></img></div>
                     <div className="navSocialMobile">
-                        <FaFacebookF />
-                        <FaInstagram />
-                        <FaWhatsapp />
-                        <FaLinkedinIn />
-                        <FaRegEnvelope />
+
+                        <a href="https://www.facebook.com/ignitedbytes"><FaFacebookF /></a>
+                        <a href="https://www.instagram.com/ignitedbytes/?hl=pt"><FaInstagram /></a>
+                        <a href="https://wa.me/351934425911" ><FaWhatsapp /></a>
+                        <a href="mailto:ignitedbytes@gmail.com?subject=Hello%20again"><FaRegEnvelope /></a>
                     </div>
                 </div>
                     : <div></div>

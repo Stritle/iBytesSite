@@ -113,35 +113,42 @@
                 font-weight: 600;
             }
         }
-        div {
-            width: fit-content;
-            margin: 0 auto;
-            margin-top: 5vh;
-            a {
+       
+            .btnContactos {
                 color: snow;
-                font-size: 3vw;
+                font-size: 3.5vw;
                 cursor: pointer;
                 transition: 0.7s;
+                position: fixed;
+                right: 30px;
+                top: 30px;
 
                 &:hover {
-                    font-size: 3.5vw;
+                    font-size: 4vw;
                 }
-            }
+            
         }
        .logoContactos{
-        width: 40%;
-        height: 50px;
-                margin: 0 auto;
+        width: 15%;
+        height: 150px;
+        margin: 0 auto;
+        background-image: url(./imgs/logo.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
         
        }
         .socialModal {
-            width: 30%;
+            margin: 0 auto;
+            width: 25%;
             display: flex;
             justify-content:space-around;
             align-items: center;
-            font-size: 17px;
-            color: #d8661b;
-            margin-top: 2vh;
+            margin-top: 2vh;      
+            a{
+                font-size: 1.5rem;
+                color: #d8661b;
+            }
             
         }
     }
@@ -210,21 +217,23 @@
                     
                 }
             }
-            div {
-                margin-top: 5vh;
-                a {
-
-                    font-size: 9vw;
-
-                    &:hover {
-                        font-size: 7vw;
-                    }
+            .btnContactos {
+                color: snow;
+                font-size: 9vw;
+                cursor: pointer;
+                transition: 0.7s;
+                position: fixed;
+                right: 20px;
+                top: 20px;
+                &:hover {
+                    font-size: 8vw;
                 }
             }
             .logoContactos{
                 width: 40%;
                 height: 50px;
                 margin: 0 auto;
+                margin-top: 10px;
                 background-image: url(./imgs/logo.png);
                 background-position: center;
                 background-repeat: no-repeat;
@@ -233,6 +242,9 @@
             }
             .socialModal {
                 width: 80%;
+                a{
+                    font-size: 1.5rem;
+                }
             }
         }
        

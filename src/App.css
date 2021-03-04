@@ -601,34 +601,34 @@ h1 {
   font-weight: 600;
 }
 
-.modalContactos .show-modal div {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  margin: 0 auto;
-  margin-top: 5vh;
-}
-
-.modalContactos .show-modal div a {
+.modalContactos .show-modal .btnContactos {
   color: snow;
-  font-size: 3vw;
+  font-size: 3.5vw;
   cursor: pointer;
   -webkit-transition: 0.7s;
   transition: 0.7s;
+  position: fixed;
+  right: 30px;
+  top: 30px;
 }
 
-.modalContactos .show-modal div a:hover {
-  font-size: 3.5vw;
+.modalContactos .show-modal .btnContactos:hover {
+  font-size: 4vw;
 }
 
 .modalContactos .show-modal .logoContactos {
-  width: 40%;
-  height: 50px;
+  width: 15%;
+  height: 150px;
   margin: 0 auto;
+  background-image: url(./imgs/logo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .modalContactos .show-modal .socialModal {
-  width: 30%;
+  margin: 0 auto;
+  width: 25%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -637,9 +637,12 @@ h1 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-size: 17px;
-  color: #d8661b;
   margin-top: 2vh;
+}
+
+.modalContactos .show-modal .socialModal a {
+  font-size: 1.5rem;
+  color: #d8661b;
 }
 
 .modalContactos .show-modal-off {
@@ -693,19 +696,24 @@ h1 {
     font-weight: 600;
     text-transform: uppercase;
   }
-  .modalContactos .show-modal div {
-    margin-top: 5vh;
-  }
-  .modalContactos .show-modal div a {
+  .modalContactos .show-modal .btnContactos {
+    color: snow;
     font-size: 9vw;
+    cursor: pointer;
+    -webkit-transition: 0.7s;
+    transition: 0.7s;
+    position: fixed;
+    right: 20px;
+    top: 20px;
   }
-  .modalContactos .show-modal div a:hover {
-    font-size: 7vw;
+  .modalContactos .show-modal .btnContactos:hover {
+    font-size: 8vw;
   }
   .modalContactos .show-modal .logoContactos {
     width: 40%;
     height: 50px;
     margin: 0 auto;
+    margin-top: 10px;
     background-image: url(./imgs/logo.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -713,6 +721,9 @@ h1 {
   }
   .modalContactos .show-modal .socialModal {
     width: 80%;
+  }
+  .modalContactos .show-modal .socialModal a {
+    font-size: 1.5rem;
   }
 }
 
@@ -985,6 +996,8 @@ h1 {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+  .navLinksMobile .navSocialMobile a {
     font-size: 17px;
     color: #d8661b;
   }

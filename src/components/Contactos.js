@@ -127,14 +127,13 @@ const Contactos = () => {
                     <input type="submit" className="btn-submit" value="Enviar Mensagem" />
                     {messageSuccess}
                 </form>
-                <div ><a onClick={handleToggleModal}> <AiOutlineCloseCircle /></a></div>
+                <a className="btnContactos" onClick={handleToggleModal}> <AiOutlineCloseCircle /></a>
                 <div className="logoContactos"></div>
                 <div className="socialModal">
-                    <FaFacebookF />
-                    <FaInstagram />
-                    <FaWhatsapp />
-                    <FaLinkedinIn />
-                    <FaRegEnvelope />
+                    <a href="https://www.facebook.com/ignitedbytes"><FaFacebookF /></a>
+                    <a href="https://www.instagram.com/ignitedbytes/?hl=pt"><FaInstagram /></a>
+                    <a href="https://wa.me/351934425911" ><FaWhatsapp /></a>
+                    <a href="mailto:ignitedbytes@gmail.com?subject=Email%20Ignited"><FaRegEnvelope /></a>
                 </div>
             </div>
         </div>

@@ -110,9 +110,11 @@
             width: 50%;
             display: flex;
             justify-content: space-between;
-            align-items: center;
-            font-size: 17px;
-            color: #d8661b;
+            align-items: center;           
+            a{
+                font-size: 17px;
+                color: #d8661b;
+            }
 
         }
     }
