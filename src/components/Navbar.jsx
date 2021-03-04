@@ -46,9 +46,10 @@ const Navbar = () => {
             {
                 isOpen ? <div className="navLinksMobile">
                     <ul>
-                        <li>Serviços</li>
-                        <li>Outros Trabalhos</li>
-                        <li>Contactos</li>
+                        <li><Link to="#aboutMobile" onClick={handleToggle}>Sobre</Link></li>
+                        <li><Link to="#serviços" onClick={handleToggle}>Serviços</Link></li>
+                        <li><Link to="#trabalhos" onClick={handleToggle}>Outros Trabalhos</Link></li>
+                        <li><Link to="#contactos" onClick={handleToggle}>Contactos</Link></li>
                     </ul>
                 </div>
                     : <div></div>

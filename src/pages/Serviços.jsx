@@ -11,7 +11,7 @@ const Serviços = () => {
                 </div>
                 <div>
                     <h1>Os nossos serviços</h1>
-                    <h6><b>Somos mais do que uma agência de marketing digital!</b></h6>
+                    <b>Somos mais do que uma agência de marketing digital!</b>
                     <p>O que fazemos? Criamos uma estratégia de marketing digital à medida de cada um dos nossos clientes.</p>
                     <p>Nós somos criativos e irreverentes, mas sempre com um toque metódico!</p>
                     <p>Conquistamos pela diferença e por irmos para além do óbvio.</p>

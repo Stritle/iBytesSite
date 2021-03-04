@@ -11,7 +11,7 @@ const About = () => {
                      e com os objetivos que desejava alcançaar com o projeto a ser alcançados.</p>
                 <a>Contacte-nos</a>
             </div>
-            <div>
+            <div id="aboutMobile">
                 {/*Div para imagem about - Associada ao Background da div no css*/}
             </div>
 
