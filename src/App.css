@@ -606,7 +606,7 @@ h1 {
   width: -moz-fit-content;
   width: fit-content;
   margin: 0 auto;
-  margin-top: 7vh;
+  margin-top: 5vh;
 }
 
 .modalContactos .show-modal div a {
@@ -621,6 +621,17 @@ h1 {
   font-size: 3.5vw;
 }
 
+.modalContactos .show-modal .logo {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.modalContactos .show-modal .logo img {
+  width: 15vw;
+}
+
 .modalContactos .show-modal .socialModal {
   width: 30%;
   display: -webkit-box;
@@ -633,6 +644,7 @@ h1 {
           align-items: center;
   font-size: 17px;
   color: #d8661b;
+  margin-top: 2vh;
 }
 
 .modalContactos .show-modal-off {
@@ -659,7 +671,6 @@ h1 {
   }
   .modalContactos .show-modal h1 {
     margin-top: 7vh;
-    color: #ce5821;
     font-size: 8vw;
     text-transform: uppercase;
   }
@@ -695,6 +706,15 @@ h1 {
   }
   .modalContactos .show-modal div a:hover {
     font-size: 7vw;
+  }
+  .modalContactos .show-modal .logo {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0 auto;
+  }
+  .modalContactos .show-modal .logo img {
+    width: 50vw;
   }
   .modalContactos .show-modal .socialModal {
     width: 80%;

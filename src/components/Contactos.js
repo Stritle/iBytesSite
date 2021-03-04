@@ -6,6 +6,7 @@ import { FaInstagram } from 'react-icons/fa';
 import { FaWhatsapp } from 'react-icons/fa';
 import { FaLinkedinIn } from 'react-icons/fa';
 import { FaRegEnvelope } from 'react-icons/fa';
+import logo from '../imgs/logo.png'
 
 
 
@@ -127,6 +128,8 @@ const Contactos = () => {
                     {messageSuccess}
                 </form>
                 <div ><a onClick={handleToggleModal}> <AiOutlineCloseCircle /></a></div>
+                <div className="logo"><img src={logo}></img></div>
+
                 <div className="socialModal">
                     <FaFacebookF />
                     <FaInstagram />

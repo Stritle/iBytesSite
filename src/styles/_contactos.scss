@@ -116,7 +116,7 @@
         div {
             width: fit-content;
             margin: 0 auto;
-            margin-top: 7vh;
+            margin-top: 5vh;
             a {
                 color: snow;
                 font-size: 3vw;
@@ -128,6 +128,13 @@
                 }
             }
         }
+       .logo{
+        width: fit-content;
+        margin: 0 auto;
+        img{
+            width: 15vw;
+        }  
+       }
         .socialModal {
             width: 30%;
             display: flex;
@@ -135,6 +142,8 @@
             align-items: center;
             font-size: 17px;
             color: #d8661b;
+            margin-top: 2vh;
+            
         }
     }
     .show-modal-off {
@@ -173,7 +182,6 @@
         .show-modal {
             h1 {
                 margin-top: 7vh;
-                color: rgb(206, 88, 33);
                 font-size: 8vw;
                 text-transform: uppercase;
             }
@@ -213,6 +221,13 @@
                         font-size: 7vw;
                     }
                 }
+            }
+            .logo{
+                width: fit-content;
+                margin: 0 auto;
+                img{
+                    width: 50vw;
+                }  
             }
             .socialModal {
                 width: 80%;
