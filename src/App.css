@@ -491,8 +491,8 @@ h1 {
   height: auto;
   text-align: center;
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 50vw;
-          flex: 1 1 50vw;
+      -ms-flex: 1 1 30vw;
+          flex: 1 1 30vw;
 }
 
 .contentServiçosComponent img {
@@ -541,6 +541,12 @@ h1 {
 }
 
 @media (max-width: 850px) {
+  .contentServiçosComponent {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 50vw;
+            flex: 1 1 50vw;
+    border-radius: 15px;
+  }
   .contentServiçosComponent img {
     width: 80%;
   }
@@ -913,8 +919,8 @@ h1 {
   }
   .serviços .serviçosDescrição div {
     -webkit-box-flex: 1;
-        -ms-flex: 1 1 80vw;
-            flex: 1 1 80vw;
+        -ms-flex: 1 1 90vw;
+            flex: 1 1 90vw;
   }
   .serviços .serviçosDescrição div:nth-child(2) {
     color: #555555;
@@ -943,7 +949,7 @@ h1 {
     background-size: 100%;
   }
   .serviços .tipoServiços {
-    max-width: 100%;
+    width: 95%;
   }
 }
 

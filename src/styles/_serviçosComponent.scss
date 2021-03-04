@@ -2,7 +2,7 @@
     width: 100vw;
     height: auto;
     text-align: center;
-    flex: 1 1 50vw;
+    flex: 1 1 30vw;
     img {
         display: block;
         margin-left: auto;
@@ -49,6 +49,8 @@
 
 
     .contentServiçosComponent {
+        flex: 1 1 50vw;
+        border-radius: 15px;
         img {         
             width: 80%;
         }
