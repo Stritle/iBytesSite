@@ -639,6 +639,7 @@ h1 {
 @media (max-width: 850px) {
   .containerContactos .containerContactosTitle h1 {
     margin-top: 5vh;
+    font-size: 6vw;
   }
   .containerContactos .containerContactosBtn a:nth-child(1) {
     margin-left: 3vw;
