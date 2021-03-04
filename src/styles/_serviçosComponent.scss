@@ -1,0 +1,69 @@
+.contentServiçosComponent {
+    width: 100vw;
+    height: auto;
+    text-align: center;
+    flex: 1 1 25vw;
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5vh;
+        width: 60%;
+    }
+    h1 {
+        font-weight: 100;
+        font-size: 2vw;
+    }
+    p {        
+        text-align: justify;
+        font-size: 0.8rem;
+        margin: 0 50px;
+        padding-bottom: 7vh;
+        
+    }
+    a {
+        color: white;
+        text-decoration: none;
+        padding: 15px 20px;
+        border-radius: 25px;
+        background-color: rgb(206, 88, 33);
+        text-shadow:  1px 1px 10px rgb(199, 90, 18);  
+        font-weight: 600;
+        transition: 0.7s;
+        &:hover {
+            border: 2px solid rgb(206, 88, 33);
+            border-radius: 1px;
+            background-color: transparent;
+            color: rgb(206, 88, 33);
+        }
+    }
+    div{
+        width: 100%;
+        height: 30px;
+        background-color: transparent;
+    }
+}
+//-----------------------------------
+//smartphone
+@media (max-width: 850px) {
+
+
+    .contentServiçosComponent {
+        img {         
+            width: 80%;
+        }
+        h1 {
+            font-size: 6vw;
+        }
+        p {        
+            text-align: justify;
+            font-size: 3.5vw;
+            margin: 10px 50px;
+            padding-bottom: 3vh;
+            
+        }
+        a {
+            padding: 15px 25px;   
+        }
+    }
+}

@@ -1,0 +1,210 @@
+.containerContactos {
+
+    width: 100%;
+    
+    float: left;
+    .containerContactosTitle {
+        h1 {
+            text-align: center;
+            margin-top: 10vh;
+            margin-bottom: 10vh;
+            color: rgb(19, 19, 19);
+        }
+    }
+    .containerContactosBtn {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        a {
+            text-decoration: none;
+            color: snow;
+            margin-bottom: 10vh;
+        }
+        a:nth-child(1) {
+            margin-left: 20vw;
+            padding: 20px;
+            border-radius: 35px;
+            background-color: rgb(206, 88, 33);
+            color: snow;
+            font-weight: 600;
+            transition: 0.7s;
+            cursor: pointer;
+            &:hover {
+                border: 2px solid rgb(206, 88, 33);
+                border-radius: 1px;
+                background-color: transparent;
+                color: rgb(206, 88, 33);
+            }
+        }
+        a:nth-child(2) {
+            margin-right: 20vw;
+            padding: 20px;
+            border: 3px solid rgb(206, 88, 33);
+            color: rgb(206, 88, 33);
+            font-weight: 600;
+            transition: 0.7s;
+            cursor: pointer;
+            &:hover {
+                border-radius: 0px;
+                background-color: rgb(206, 88, 33);
+                color: snow;
+                border-radius: 35px;
+            }
+        }
+    }
+}
+.modalContactos {
+    .show-modal {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgb(40,40,40);
+        background: radial-gradient(circle, rgba(40,40,40,1) 0%, rgba(0,0,0,1) 100%);
+        z-index: 7;
+        h1 {
+            text-align: center;
+            margin-top: 5vh;
+            color: rgb(206, 88, 33);
+            font-size: 2.5vw;
+        }
+        option:first-child {
+            color: #999;
+        }
+        .contactForm {
+            width: 58vw;
+            margin: 0 auto;
+            select {
+                margin: 5vh 1% 0 1%;
+                width: 98%;
+                height: 7vh;
+                text-align-last: center;
+                border-radius: 30px;
+                outline: none;
+            }
+            input {
+                height: 7vh;
+                width: 48%;
+                margin: 1vh 1% 0 1%;
+                text-indent: 25px;
+                border-radius: 30px;
+                outline: none;
+                border: none;
+            }
+
+            textarea {
+                margin: 1vh 1% 0 1%;
+                width: 98%;
+                height: 15vh;
+                resize: none;
+                border-radius: 30px;
+                outline: none;
+                text-indent: 25px;
+            }
+
+            .btn-submit {
+                width: 99%;
+            }
+        }
+        div {
+            width: fit-content;
+            margin: 0 auto;
+            margin-top: 10vh;
+            a {
+                color: snow;
+                font-size: 3vw;
+                cursor: pointer;
+                transition: 0.7s;
+
+                &:hover {
+                    font-size: 3.5vw;
+                }
+            }
+        }
+        .socialModal {
+            width: 30%;
+            display: flex;
+            justify-content:space-around;
+            align-items: center;
+            font-size: 17px;
+            color: #d8661b;
+        }
+    }
+    .show-modal-off {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+   
+}
+//-------------Smartphone
+
+@media(max-width:850px){
+    .containerContactos {
+        .containerContactosTitle {
+            h1 {
+                margin-top: 5vh;
+            }
+        }
+        .containerContactosBtn {
+            a:nth-child(1) {
+                margin-left: 3vw;
+                margin-right: 2vw;
+                padding: 10px 15px;    
+            }
+            a:nth-child(2) {
+                margin-right: 3vw;
+                margin-left: 2vw;
+                padding: 10px 15px;
+            }
+        }
+    }
+    .modalContactos {
+        .show-modal {
+            h1 {
+                margin-top: 7vh;
+                color: rgb(206, 88, 33);
+                font-size: 8vw;
+            }
+            .contactForm {
+                width: 90vw;
+                textarea {
+                    margin: 1vh 1% 0 1%;
+                    width: 98%;
+                    height: 15vh;
+                    resize: none;
+                    border-radius: 30px;
+                    outline: none;
+                    text-indent: 25px;
+                }
+    
+                .btn-submit {
+                    width: 99%;
+                    background-color: rgb(206, 88, 33);
+                    color: snow;
+                    font-weight: 600;
+                    text-transform: uppercase;
+                    
+                }
+            }
+            div {
+                margin-top: 5vh;
+                a {
+
+                    font-size: 9vw;
+
+                    &:hover {
+                        font-size: 7vw;
+                    }
+                }
+            }
+            .socialModal {
+                width: 80%;
+            }
+        }
+       
+    }
+    
+}

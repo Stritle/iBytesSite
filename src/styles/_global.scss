@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6,
+b,
+p,
+a,
+button,
+small {
+    font-family: "Quicksand", sans-serif;
+    color: snow;
+}
+h1 {
+    font-family: "Goldman", cursive;
+}
+
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+    to {
+        opacity: 1;
+        transform: rotateX(0deg);
+    }
+}
+
+// backdrop-filter: blur(5px);
