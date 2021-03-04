@@ -1,12 +1,11 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import emailjs from 'emailjs-com';
 import { AiOutlineCloseCircle } from 'react-icons/ai'
 import { FaFacebookF } from 'react-icons/fa';
 import { FaInstagram } from 'react-icons/fa';
 import { FaWhatsapp } from 'react-icons/fa';
-import { FaLinkedinIn } from 'react-icons/fa';
 import { FaRegEnvelope } from 'react-icons/fa';
-import logo from '../imgs/logo.png'
+
 
 
 
@@ -30,12 +29,7 @@ const Contactos = () => {
     const [messageErro, setMessageErro] = useState("");
     const [messageSuccess, setMessageSuccess] = useState("");
 
-
-
     const handleToggleModal = () => setIsOpenModal(!openModal)
-
-
-
 
     const validate = () => {
 
@@ -91,6 +85,7 @@ const Contactos = () => {
             }, 1000);
         }
     }
+
 
     return (<>
         <div className="containerContactos" id="contactos">
