@@ -14,7 +14,7 @@ const Home = () => {
                 <Navbar />
 
                 <div className="content-background">
-                    <video autoPlay muted loop playsinline >
+                    <video autoPlay webkit-playsinline muted loop>
                         <source src={videoBackground} type="video/mp4"></source>
                     </video>
                     <div className="container">
