@@ -118,7 +118,7 @@ h1 {
 
 @media (max-width: 850px) {
   .home .content-background .container {
-    left: 15vw;
+    left: 13vw;
     top: 20vh;
   }
   .home .content-background .container img {
