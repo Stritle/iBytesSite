@@ -18,7 +18,7 @@ const Home = () => {
                     
                         <source src={videoBackground} type="video/mp4"></source>
                     </video> */}
-                    <video src={videoBackground} autoPlay playsinline muted loop ></video>
+                    <video src={videoBackground} autoPlay playsInline muted loop ></video>
                     <div className="container">
                         <img src={logo}></img>
                         <h1>We make</h1><h1> digital beautiful!</h1>
