@@ -95,7 +95,7 @@ const Contactos = () => {
     return (<>
         <div className="containerContactos" id="contactos">
             <div className="containerContactosTitle"><h1>Tem alguma dúvida ?  </h1></div>
-            <div className="containerContactosBtn"><a>Falar com um Web Designer</a>
+            <div className="containerContactosBtn"><a href="https://wa.me/351934425911">Falar com um Web Designer</a>
                 <a onClick={handleToggleModal}>Enviar Mensagem</a>
             </div>
 
