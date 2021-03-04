@@ -402,8 +402,8 @@ h1 {
   height: auto;
   text-align: center;
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 25vw;
-          flex: 1 1 25vw;
+      -ms-flex: 1 1 50vw;
+          flex: 1 1 50vw;
 }
 
 .contentServiçosComponent img {
@@ -461,7 +461,7 @@ h1 {
   .contentServiçosComponent p {
     text-align: justify;
     font-size: 3.5vw;
-    margin: 10px 50px;
+    margin: 10px 30px;
     padding-bottom: 3vh;
   }
   .contentServiçosComponent a {
