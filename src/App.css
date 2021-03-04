@@ -118,7 +118,7 @@ h1 {
 
 @media (max-width: 850px) {
   .home .content-background .container {
-    left: 18vw;
+    left: 15vw;
     top: 20vh;
   }
   .home .content-background .container img {
@@ -781,6 +781,7 @@ h1 {
   }
   .serviços .serviçosDescrição {
     height: auto;
+    margin-bottom: 0vh;
   }
   .serviços .serviçosDescrição div {
     -webkit-box-flex: 1;
@@ -911,6 +912,7 @@ h1 {
     font-size: 1.5rem;
     -webkit-transition: 0.7s;
     transition: 0.7s;
+    color: #d8661b;
   }
   .navBtn:hover {
     color: #eb8e14;
