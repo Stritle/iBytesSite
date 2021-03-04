@@ -128,8 +128,7 @@ const Contactos = () => {
                     {messageSuccess}
                 </form>
                 <div ><a onClick={handleToggleModal}> <AiOutlineCloseCircle /></a></div>
-                <div className="logo"><img src={logo}></img></div>
-
+                <div className="logoContactos"></div>
                 <div className="socialModal">
                     <FaFacebookF />
                     <FaInstagram />
