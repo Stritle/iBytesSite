@@ -66,8 +66,9 @@
         h1 {
             text-align: center;
             margin-top: 5vh;
-            color: rgb(206, 88, 33);
+            color: snow;
             font-size: 2.5vw;
+            text-transform: uppercase;
         }
         option:first-child {
             color: #999;
@@ -115,7 +116,7 @@
         div {
             width: fit-content;
             margin: 0 auto;
-            margin-top: 10vh;
+            margin-top: 7vh;
             a {
                 color: snow;
                 font-size: 3vw;
@@ -152,6 +153,7 @@
             h1 {
                 margin-top: 5vh;
                 font-size: 6vw;
+                
             }
         }
         .containerContactosBtn {
@@ -178,6 +180,9 @@
             .contactForm {
                 width: 90vw;
                 text-align: center;
+                select{
+                    background-color: snow;
+                }
                 textarea {
                     margin: 1vh 1% 0 1%;
                     width: 98%;
@@ -189,9 +194,9 @@
                 }
     
                 .btn-submit {
-                    width: 80%;margin-top: 30px;
-
-                    background-color: rgb(206, 88, 33);
+                    width: 90%;
+                    margin-top: 30px;
+                    background-color: rgb(194, 78, 25);
                     color: snow;
                     font-weight: 600;
                     text-transform: uppercase;

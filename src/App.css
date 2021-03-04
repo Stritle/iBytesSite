@@ -549,8 +549,9 @@ h1 {
 .modalContactos .show-modal h1 {
   text-align: center;
   margin-top: 5vh;
-  color: #ce5821;
+  color: snow;
   font-size: 2.5vw;
+  text-transform: uppercase;
 }
 
 .modalContactos .show-modal option:first-child {
@@ -605,7 +606,7 @@ h1 {
   width: -moz-fit-content;
   width: fit-content;
   margin: 0 auto;
-  margin-top: 10vh;
+  margin-top: 7vh;
 }
 
 .modalContactos .show-modal div a {
@@ -666,6 +667,9 @@ h1 {
     width: 90vw;
     text-align: center;
   }
+  .modalContactos .show-modal .contactForm select {
+    background-color: snow;
+  }
   .modalContactos .show-modal .contactForm textarea {
     margin: 1vh 1% 0 1%;
     width: 98%;
@@ -676,9 +680,9 @@ h1 {
     text-indent: 25px;
   }
   .modalContactos .show-modal .contactForm .btn-submit {
-    width: 80%;
+    width: 90%;
     margin-top: 30px;
-    background-color: #ce5821;
+    background-color: #c24e19;
     color: snow;
     font-weight: 600;
     text-transform: uppercase;
