@@ -3,7 +3,7 @@ import Navbar from '../components/Navbar'
 import logo from '../imgs/logo.png'
 import About from './About'
 import Serviços from './Serviços'
-import Contactos from '../components/Contactos'
+import Contactos from './Contactos'
 import ContentLinks from '../components/ContentLinks'
 import Footer from '../components/Footer'
 
