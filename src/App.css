@@ -70,6 +70,7 @@ h1 {
   height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
+  z-index: 11;
 }
 
 .home .content-background .container {
@@ -905,10 +906,12 @@ h1 {
 
 .navbar .navLinks ul a {
   text-decoration: none;
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
 }
 
 .navbar .navLinks ul a:hover {
-  color: tomato;
+  color: #d8661b;
 }
 
 .navbar .navSocial {
