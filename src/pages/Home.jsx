@@ -14,10 +14,11 @@ const Home = () => {
                 <Navbar />
 
                 <div className="content-background">
-                    <video autoPlay playsInline muted loop>
+                    <video src={videoBackground} autoPlay playsInline muted loop></video>
+                    {/* <video autoPlay playsInline muted loop>
 
                         <source src={videoBackground} type="video/mp4"></source>
-                    </video>
+                    </video> */}
 
                     <div className="container">
                         <img src={logo}></img>

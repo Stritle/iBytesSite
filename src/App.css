@@ -70,7 +70,6 @@ h1 {
   height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
-  z-index: 11;
 }
 
 .home .content-background .container {
