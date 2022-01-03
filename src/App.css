@@ -1018,7 +1018,7 @@ h1 {
   transition: 0.7s;
   text-decoration: none;
   cursor: pointer;
-  border-radius: 20px;
+  border-radius: 25px;
 }
 
 .about div:nth-child(1) a:hover {
