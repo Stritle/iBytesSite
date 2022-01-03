@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import emailjs from 'emailjs-com';
 import { AiOutlineCloseCircle } from 'react-icons/ai'
 import { FaFacebookF } from 'react-icons/fa';
@@ -12,7 +12,6 @@ import { FaRegEnvelope } from 'react-icons/fa';
 const Contactos = () => {
 
     const [openModal, setIsOpenModal] = useState(false);
-    const [showParagraph, setShowParagraph] = useState(false);
 
     // variaveis validação 
     const [firstName, setFirstName] = useState("");

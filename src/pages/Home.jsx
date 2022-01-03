@@ -15,13 +15,9 @@ const Home = () => {
 
                 <div className="content-background">
                     <video src={videoBackground} autoPlay playsInline muted loop></video>
-                    {/* <video autoPlay playsInline muted loop>
-
-                        <source src={videoBackground} type="video/mp4"></source>
-                    </video> */}
 
                     <div className="container">
-                        <img src={logo}></img>
+                        <img src={logo} alt="Ignitedbytes"></img>
                         <h1>We make</h1><h1> digital beautiful!</h1>
                         <h6>______</h6><br />
                         <p>Ao contrário da crença popular, o Lorem Ipsum não é simplesmente texto aleatório.

@@ -32,15 +32,36 @@
             margin-left: 6vw;
             margin-top: 2vh;
             margin-right: 20%;
+            margin-bottom: 2vh;
+            color: snow;
+            text-align: justify;
+        }
+        .lastP {
             margin-bottom: 10vh;
+        }
+        b {
+            margin-left: 6vw;
+            margin-right: 20%;
             color: snow;
             text-align: justify;
         }
         a {
             margin-left: 6vw;
-            background-color: rgb(206, 88, 33);
             padding: 15px 20px;
-            border-radius: 25px;
+            background-color: rgb(206, 88, 33);
+            text-shadow: 1px 1px 10px rgb(199, 90, 18);
+            color: snow;
+            font-weight: 600;
+            transition: 0.7s;
+            text-decoration: none;
+            cursor: pointer;
+            border-radius: 20px;
+            &:hover {
+                border: 2px solid snow;
+                border-radius: 1px;
+                background-color: snow;
+                color: rgb(206, 88, 33);
+            }
         }
     }
     div:nth-child(2) {
@@ -91,6 +112,7 @@
                 color: snow;
                 text-align: justify;
             }
+
             a {
                 margin-left: 6vw;
                 background-color: rgb(206, 88, 33);

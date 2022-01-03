@@ -6,18 +6,10 @@ const Serviços = () => {
     return (
         <div className="serviços" id="serviços">
             <div className="serviçosDescrição" >
-                <div>
-                    {/*Div para imagem Serviços - Associada ao Background da div no css*/}
-                </div>
-                <div>
-                    <h1>Os nossos serviços</h1>
-                    <b>Somos mais do que uma agência de marketing digital!</b>
-                    <p>O que fazemos? Criamos uma estratégia de marketing digital à medida de cada um dos nossos clientes.</p>
-                    <p>Nós somos criativos e irreverentes, mas sempre com um toque metódico!</p>
-                    <p>Conquistamos pela diferença e por irmos para além do óbvio.</p>
-                    <p>Queres encontrar o lugar ao sol da tua empresa no mundo online? Nós somos a agência de marketing digital que vai fazer isso acontecer!</p>
-                    <p>Fala connosco. Nós vamos dar à tua empresa o impulso que precisa para conquistar a tua área de negócio.</p>
-                </div>
+
+                <h1>Os nossos serviços</h1>
+
+
             </div>
 
             <div className="tipoServiços">

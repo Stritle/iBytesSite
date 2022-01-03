@@ -22,10 +22,11 @@
             li {
                 color: snow;
                 list-style: none;
+                font-size: 1.2rem;
             }
             a {
                 text-decoration: none;
-                transition: 0.9s;
+                transition: 0.6s;
                 &:hover {
                     color: #d8661b;
                 }
@@ -37,11 +38,15 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        font-size: 1.2rem;
+        font-size: 1.4rem;
+        margin-left: 70px;
         a {
             color: #d8661b;
+            transition: 0.9s;
+            &:hover {
+                color: snow;
+            }
         }
-        margin-left: 70px;
     }
 }
 .navBtn {
